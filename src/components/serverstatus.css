@@ -1,0 +1,56 @@
+.server_card{
+    padding: 10px;
+    text-align: left;
+    height: 180px;
+}
+
+.server_data {
+    display: grid;
+    grid-template-columns: 150px 200px;
+    height: 55px;
+}
+
+.server_status {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 50px;
+
+}
+h2{
+    color:gray;
+    text-align: left;
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.offline{
+    margin-left: 5px;
+    border-left: 5px solid crimson;
+    color: crimson;
+}
+
+
+.nouser{
+    margin-left: 5px;
+    border-left: 5px solid orange;
+    color: orange;
+}
+
+.idle{
+    color: gray;
+}
+
+.working{
+    color: green;
+}
+
+.resource_crit{
+    color: crimson;
+    font-weight: bold;
+}
+
+.resource_low{
+    color: orange;
+    font-weight: bold;
+}
