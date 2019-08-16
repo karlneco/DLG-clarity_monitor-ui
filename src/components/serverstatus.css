@@ -54,3 +54,42 @@ h2{
     color: orange;
     font-weight: bold;
 }
+.working_card{
+    height: 200px;
+    width: 400px;
+    border-width: 5px;
+    box-shadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
+    text-align: left;
+    border-style: solid;
+    border-color: white;
+}
+
+.idle_card{
+    height: 200px;
+    width: 400px;
+    border-width: 5px;
+    box-shadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
+    text-align: left;
+    border-style: solid;
+    border-color: white;
+}
+
+.pausing_card{
+    height: 200px;
+    width: 400px;
+    border-width: 5px;
+    box-shadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
+    text-align: left;
+    border-style: solid;
+    border-color: purple;
+}
+
+.paused_card{
+    height: 200px;
+    width: 400px;
+    box-shadow: '0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)';
+    text-align: left;
+    border-color: orange;
+    border-width: 5px;
+    border-style: solid;
+}

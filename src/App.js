@@ -26,12 +26,12 @@ function App() {
   return (
     <div className={classes.root}>
       <Grid container spacing={2}>
-        <Grid item><Paper className={classes.paper}><ServerStatus servername="cgdc01tsk01"/></Paper></Grid>
-        <Grid item><Paper className={classes.paper}><ServerStatus servername="cgdc01tsk02"/></Paper></Grid>
-        <Grid item><Paper className={classes.paper}><ServerStatus servername="cgdc01tsk03"/></Paper></Grid>
-        <Grid item><Paper className={classes.paper}><ServerStatus servername="cgdc01tsk04"/></Paper></Grid>
-        <Grid item><Paper className={classes.paper}><ServerStatus servername="cgdc01tsk05"/></Paper></Grid>
-        <Grid item><Paper className={classes.paper}><ServerStatus servername="cgdc01tsk06"/></Paper></Grid>
+        <Grid item><ServerStatus servername="cgdc01tsk01"/></Grid>
+        <Grid item><ServerStatus servername="cgdc01tsk02"/></Grid>
+        <Grid item><ServerStatus servername="cgdc01tsk03"/></Grid>
+        <Grid item><ServerStatus servername="cgdc01tsk04"/></Grid>
+        <Grid item><ServerStatus servername="cgdc01tsk05"/></Grid>
+        <Grid item><ServerStatus servername="cgdc01tsk06"/></Grid>
       </Grid>
   </div>
   );
